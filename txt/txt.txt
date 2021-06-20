@@ -1,0 +1,44 @@
+
+/**
+ * @swagger
+ * components:
+ *  schemas:
+ *    Task: 
+ *      type: object
+ *      properties: 
+ *        id:
+ *          type: string
+ *          description: the auto-generated id of task
+ *        name: 
+ *          type: string
+ *          description: name of the task
+ *        description: 
+ *          type: string
+ *          description: description of the task
+ *        required:
+ *          - name
+ *          - description
+ *        example: 
+ *          id: mvZyo_U3xPtx9WJWXpcEb
+ *          name: My first task
+ *          description: I have to do something task
+ */
+
+
+/**
+ * @swagger
+ * paths:
+ *  /tasks:
+ *    get:
+ *      summary: Return a tasks list
+ *      responses: 
+ *        200:
+ *          description: the list tasks
+ *          content: 
+ *            application/json
+ *              schema: 
+ *                type: array
+ *                items: 
+ *                  type: Object
+ *                
+ */
