@@ -1,0 +1,33 @@
+
+
+GET http://localhost:3000/tasks
+
+###
+GET http://localhost:3000/tasks/count
+
+###
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "name": "I need create a web site",
+  "description": "Codding in TS"
+}
+
+###
+GET http://localhost:3000/tasks/l4aeXwDUnZtdePMd88HMF
+Content-Type: application/json
+
+
+###
+DELETE http://localhost:3000/tasks/DJSKSI6BPdy4uL_jGDeR_
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/tasks/9nA4-SWm__VXxtt-L5Fra
+Content-Type: application/json
+
+{
+  "name": "En español",
+  "description": "Codding in TS"
+}
